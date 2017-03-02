@@ -11,7 +11,7 @@ public class emailValidator {
         atIndex = mail.indexOf('@', 0);
         fullIndex = mail.indexOf('.', 0);
         
-        //Determine contains at least one .
+        //To determine contains at least one .
         if(	mail.contains("."))
         	count++;
         
